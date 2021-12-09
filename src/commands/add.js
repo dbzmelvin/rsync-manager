@@ -1,7 +1,10 @@
+import conf from 'conf';
+import chalk from 'chalk';
+
 class Adder {
     constructor() {
-        this._conf = new (require('conf'))
-        this._chalk = require('chalk')
+        this._conf = new conf
+        this._chalk = chalk
     }
 
     add(name, src, dst) {

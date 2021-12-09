@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-const {program} = require('commander');
+import {program} from 'commander';
 program.version('0.0.1');
 
-const {Adder} = require('./commands/add');
+import {Adder} from './commands/add';
+
 /*const remove = require('./commands/remove');
 const list = require('./commands/list');*/
 
