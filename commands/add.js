@@ -1,7 +1,5 @@
-const config = require('conf');
-const conf = new config();
-
-import chalk from 'chalk';
+const conf = new (require('conf'))();
+const chalk = require('chalk');
 
 function add(name, source, destination) {
     let rsyncEntryies = conf.get('rsync-entries');

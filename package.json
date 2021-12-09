@@ -2,23 +2,20 @@
   "name": "rsync-manager",
   "version": "0.0.1",
   "description": "Simple CLI to manage your rsync commands.",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "bin": {
-    "rsm": "./dist/index.js"
-  },
-  "scripts": {
-    "build": "npx babel src --out-dir dist"
+    "rsm": "index.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4"
-  },
   "dependencies": {
     "chalk": "^5.0.0",
     "commander": "^8.3.0",
     "conf": "^10.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
   }
 }

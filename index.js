@@ -22,4 +22,4 @@ program
     .description('list all available rsync entries')
     .action(list);
 
-program.parse(process.argv);
+program.parse();
